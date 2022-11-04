@@ -1,0 +1,150 @@
+body{
+  font-family: "Montserrat";
+}
+#title{
+ background-color: #B8E8FC;
+
+
+}
+.nav-item1{
+  font-weight: bolder;
+}
+
+h1{
+font-family:  "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+  color: #fff;
+}
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.nav-item{
+  padding: 0 16px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+.navbar-brand{
+  font-family:"Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.download-button{
+  margin: 5% 3% 3% 0;
+}
+.title-image{
+    width:20%;
+  transform: rotate(30deg);
+  position: absolute;
+
+}
+@media (max-width:980px) {
+  .title-image{
+    width:80%;
+    position: static;
+    text-align: center;
+    transform: rotate(0);
+  }
+}
+#healthrecords{
+  padding: 30px 100px ;
+  position: relative;
+  z-index: 1;
+  background-color:#B8E8FC;
+
+
+}
+#features{
+
+    padding: 7% 15% ;
+    background-color: #fff;
+    position: relative;
+
+
+  }
+  .alpha{
+    text-align: center;
+    padding: 50px;
+  }
+  h3{
+    font-family: "Montserrat"
+  }
+  p{
+    color: grey;
+  }
+  .icon{
+    color: #B8E8FC;
+    margin:1rem;
+  }
+  .icon:hover{
+    color: #B2A4FF;
+  }
+  .container-fluid{
+    padding: 3% 15% 7%;
+  }
+  #testimonials{
+    text-align: center;
+    background-color: #B2A4FF ;
+
+    color: #fff;
+  }
+  h2{
+
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+    height:1.5;
+  }
+.testimonial-image{
+  width: 15%;
+  border-radius: 100%;
+  padding: 3%;
+}
+#press{
+  text-align: center;;
+  padding: 3% 5%;
+  background-color: #B8E8FC;
+
+}
+.press-image{
+  width:12%;
+  padding: 4%;
+}
+.patient{
+  width:30%;
+  border-right: 100%;
+}
+.carousel-item{
+  padding: 5% 15%;
+}
+#pricing{
+  padding: 5%;
+  text-align: center;
+}
+ .pricing-button{
+   padding: 3% 3%;
+ }
+ #cta{
+   text-align: center;
+   background-color: #B8E8FC;
+   color: #fff;
+
+ }
+ .ctah3{
+   font-size: 4rem;
+   padding-top: 5%;
+ }
+ .atc-button{
+   margin: 2%;
+}
+#footer{
+  text-align: center;
+  background-color: #fff;
+  padding: 5%;
+}
+.footpad{
+  margin:20px;
+  font-size: 2rem;
+}
